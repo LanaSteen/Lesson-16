@@ -1,7 +1,4 @@
-﻿
-using System.Diagnostics.CodeAnalysis;
-using Xunit;
-
+﻿using System.Diagnostics.CodeAnalysis;
 
 namespace CustomAlgorithm.Tests
 {

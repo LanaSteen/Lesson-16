@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using CustomAlgorithm;
-
-namespace CustomAlgorithm
+﻿namespace CustomAlgorithm
 {
     public static class MyAlgorithm
     {
