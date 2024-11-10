@@ -9,7 +9,7 @@ namespace MiniBank.Tests
         public void Get_Customer()
         {
       
-            string _filePath = @"../../../Data/Customers.csv";
+            string _filePath = @"../../../TestData/CustomersTest.csv";
 
 
             // Arrange

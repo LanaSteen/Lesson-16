@@ -9,7 +9,7 @@ namespace MiniBank.Tests
         public void Delete_Customer()
         {
       
-            string _filePath = @"../../../Data/Customers.csv";
+            string _filePath = @"../../../TestData/CustomersTest.csv";
 
 
             // Arrange
@@ -19,9 +19,11 @@ namespace MiniBank.Tests
                 // Act
                 repo.Delete(2);
 
-                // Assert
-              
-            
+            // Assert
+            var deletedCustomer = repo.GetCustomer(1); 
+            Assert.Null(deletedCustomer); 
+
+
         }
     }
 }
